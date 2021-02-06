@@ -3,7 +3,7 @@ import { arrayOf, shape, string, func } from "prop-types";
 
 const Select = ({ elements, label, name, value, handleInputChange }) => (
   <div className="my-2 p-2">
-    <label className="font-bold" htmlFor={name} id={`label-${name}`}>
+    <label className="font-light" htmlFor={name} id={`label-${name}`}>
       {label}:
     </label>
     <select

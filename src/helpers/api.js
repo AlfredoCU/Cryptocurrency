@@ -25,7 +25,7 @@ export const getCryptocurrency = async () => {
 
     return cryptocy;
   } catch (error) {
-    console.error("CRYPTOCURRENCY_ERROR", error);
+    console.error("GET_CRYPTOCURRENCY_ERROR", error);
   }
 };
 
@@ -47,6 +47,6 @@ export const getQuotation = async (crypto, coin) => {
       LastUpdate: quo.LASTUPDATE
     };
   } catch (error) {
-    console.error("QUOTATION_ERROR", error);
+    console.error("GET_QUOTATION_ERROR", error);
   }
 };

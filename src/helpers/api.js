@@ -43,7 +43,7 @@ export const getQuotation = async (crypto, coin) => {
       Price: quo.PRICE,
       Highday: quo.HIGHDAY,
       Logday: quo.LOWDAY,
-      Hour24: quo.CHANGEPCT24HOUR,
+      Hours24: quo.CHANGEPCT24HOUR,
       LastUpdate: quo.LASTUPDATE
     };
   } catch (error) {
